@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class PhonexConvert {
-    Map<Character, String> phoneticMap = Map.ofEntries(
+    private Map<Character, String> phoneticMap = Map.ofEntries(
             Map.entry('A', "Alpha"), Map.entry('B', "Bravo"), Map.entry('C', "Charlie"),
             Map.entry('D', "Delta"), Map.entry('E', "Echo"), Map.entry('F', "Foxtrot"),
             Map.entry('G', "Golf"), Map.entry('H', "Hotel"), Map.entry('I', "India"),
